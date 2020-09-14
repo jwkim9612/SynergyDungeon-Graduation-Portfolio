@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dfa92551f059774694c8d945ba6e84a, type: 3}
+  m_Name: ChapterDataSheet
+  m_EditorClassIdentifier: 
+  ChapterExcelDatas:
+  - Id: 1
+    Name: "\uD478\uB978\uCD08\uC6D0"
+    TotalWave: 16
+    ImagePath: Images/Main/Chapter/Chapter1
+  - Id: 2
+    Name: "\uB728\uAC70\uC6B4\uC0AC\uB9C9"
+    TotalWave: 30
+    ImagePath: Images/Main/Chapter/Chapter2
+  - Id: 3
+    Name: "\uC5BC\uC74C\uB098\uB77C"
+    TotalWave: 50
+    ImagePath: Images/Main/Chapter/Chapter2
+  - Id: 4
+    Name: "\uC0B4\uC0C9\uB098\uB77C"
+    TotalWave: 80
+    ImagePath: Images/Main/Chapter/Chapter2
+  - Id: 5
+    Name: "\uC624\uC6B0\uC624\uC6B0"
+    TotalWave: 100
+    ImagePath: Images/Main/Chapter/Chapter2

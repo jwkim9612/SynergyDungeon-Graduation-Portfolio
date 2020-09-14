@@ -1,0 +1,5 @@
+<linker>
+  <assembly fullname="LitJson">
+    <type fullname="LitJson.JsonData" preserve="all"/>
+  </assembly>
+</linker>

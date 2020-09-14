@@ -1,0 +1,1061 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a71e3e4747ce80744bc85358318fc93a, type: 3}
+  m_Name: CharacterAbilityDataSheet
+  m_EditorClassIdentifier: 
+  OneStarExcelDatas:
+  - Id: 1
+    Name: "\uACE0\uCCA0\uAC70\uC778"
+    Attack: 91
+    MagicalAttack: 0
+    Health: 660
+    Defence: 22
+    MagicDefence: 25
+    Shield: 0
+    Accuracy: 100
+    Evasion: 8
+    Critical: 5
+    AttackSpeed: 104
+  - Id: 2
+    Name: "\uB55C\uC7A5\uC774"
+    Attack: 72
+    MagicalAttack: 0
+    Health: 740
+    Defence: 31
+    MagicDefence: 44
+    Shield: 0
+    Accuracy: 100
+    Evasion: 6
+    Critical: 5
+    AttackSpeed: 93
+  - Id: 3
+    Name: "\uC790\uC774\uB85C\uCF65\uD130"
+    Attack: 58
+    MagicalAttack: 0
+    Health: 620
+    Defence: 20
+    MagicDefence: 10
+    Shield: 0
+    Accuracy: 100
+    Evasion: 6
+    Critical: 5
+    AttackSpeed: 80
+  - Id: 4
+    Name: "\uACE0\uC2A4\uD2B8 \uB4DC\uB798\uACE4"
+    Attack: 61
+    MagicalAttack: 15
+    Health: 620
+    Defence: 19
+    MagicDefence: 19
+    Shield: 0
+    Accuracy: 100
+    Evasion: 8
+    Critical: 5
+    AttackSpeed: 180
+  - Id: 5
+    Name: "\uADF8\uB9B0 \uB4DC\uB798\uACE4"
+    Attack: 57
+    MagicalAttack: 0
+    Health: 720
+    Defence: 21
+    MagicDefence: 42
+    Shield: 0
+    Accuracy: 100
+    Evasion: 6
+    Critical: 5
+    AttackSpeed: 79
+  - Id: 6
+    Name: "\uBCF4\uB77C \uB4DC\uB798\uACE4"
+    Attack: 0
+    MagicalAttack: 150
+    Health: 670
+    Defence: 20
+    MagicDefence: 30
+    Shield: 0
+    Accuracy: 100
+    Evasion: 6
+    Critical: 5
+    AttackSpeed: 80
+  - Id: 7
+    Name: "\uC218\uC815 \uB4DC\uB798\uACE4"
+    Attack: 50
+    MagicalAttack: 0
+    Health: 600
+    Defence: 30
+    MagicDefence: 10
+    Shield: 0
+    Accuracy: 100
+    Evasion: 6
+    Critical: 5
+    AttackSpeed: 79
+  - Id: 8
+    Name: "\uB460"
+    Attack: 60
+    MagicalAttack: 0
+    Health: 890
+    Defence: 22
+    MagicDefence: 28
+    Shield: 0
+    Accuracy: 100
+    Evasion: 6
+    Critical: 5
+    AttackSpeed: 91
+  - Id: 9
+    Name: "\uC545\uB9C8\uC758 \uAE30\uC0AC"
+    Attack: 0
+    MagicalAttack: 112
+    Health: 640
+    Defence: 13
+    MagicDefence: 27
+    Shield: 0
+    Accuracy: 100
+    Evasion: 6
+    Critical: 5
+    AttackSpeed: 83
+  - Id: 10
+    Name: "\uD751\uB9C8\uBC95\uC0AC"
+    Attack: 98
+    MagicalAttack: 0
+    Health: 855
+    Defence: 62
+    MagicDefence: 33
+    Shield: 0
+    Accuracy: 100
+    Evasion: 6
+    Critical: 5
+    AttackSpeed: 84
+  - Id: 11
+    Name: "\uC2A4\uD0EC\uD53C\uB4DC"
+    Attack: 61
+    MagicalAttack: 0
+    Health: 630
+    Defence: 17
+    MagicDefence: 17
+    Shield: 0
+    Accuracy: 100
+    Evasion: 6
+    Critical: 5
+    AttackSpeed: 90
+  - Id: 12
+    Name: "\uCF04\uD0C0\uC6B0\uB85C\uC2A4"
+    Attack: 79
+    MagicalAttack: 0
+    Health: 600
+    Defence: 7
+    MagicDefence: 6
+    Shield: 0
+    Accuracy: 100
+    Evasion: 11
+    Critical: 5
+    AttackSpeed: 111
+  - Id: 13
+    Name: "\uD4E8\uB9AC\uC628"
+    Attack: 0
+    MagicalAttack: 90
+    Health: 935
+    Defence: 20
+    MagicDefence: 25
+    Shield: 0
+    Accuracy: 100
+    Evasion: 6
+    Critical: 5
+    AttackSpeed: 86
+  - Id: 14
+    Name: "\uB9AC\uCE58"
+    Attack: 94
+    MagicalAttack: 0
+    Health: 695
+    Defence: 9
+    MagicDefence: 11
+    Shield: 0
+    Accuracy: 100
+    Evasion: 12
+    Critical: 100
+    AttackSpeed: 118
+  - Id: 15
+    Name: "\uD574\uACE8 \uBCD1\uC0AC"
+    Attack: 0
+    MagicalAttack: 130
+    Health: 790
+    Defence: 18
+    MagicDefence: 28
+    Shield: 0
+    Accuracy: 100
+    Evasion: 6
+    Critical: 5
+    AttackSpeed: 89
+  - Id: 16
+    Name: "\uD761\uD608\uADC0"
+    Attack: 64
+    MagicalAttack: 0
+    Health: 660
+    Defence: 27
+    MagicDefence: 20
+    Shield: 0
+    Accuracy: 100
+    Evasion: 6
+    Critical: 5
+    AttackSpeed: 85
+  - Id: 17
+    Name: "\uC5D8\uD504 \uAC80\uC0AC"
+    Attack: 68
+    MagicalAttack: 0
+    Health: 515
+    Defence: 10
+    MagicDefence: 10
+    Shield: 0
+    Accuracy: 100
+    Evasion: 8
+    Critical: 5
+    AttackSpeed: 100
+  - Id: 18
+    Name: "\uC6B0\uB4DC \uC5D8\uD504"
+    Attack: 112
+    MagicalAttack: 11
+    Health: 666
+    Defence: 11
+    MagicDefence: 11
+    Shield: 0
+    Accuracy: 100
+    Evasion: 13
+    Critical: 5
+    AttackSpeed: 111
+  - Id: 19
+    Name: "\uC6CC\uB85D"
+    Attack: 0
+    MagicalAttack: 90
+    Health: 600
+    Defence: 12
+    MagicDefence: 17
+    Shield: 0
+    Accuracy: 100
+    Evasion: 6
+    Critical: 5
+    AttackSpeed: 82
+  - Id: 20
+    Name: "\uC77C\uC77C\uC774"
+    Attack: 73
+    MagicalAttack: 0
+    Health: 760
+    Defence: 45
+    MagicDefence: 26
+    Shield: 0
+    Accuracy: 100
+    Evasion: 6
+    Critical: 5
+    AttackSpeed: 88
+  - Id: 21
+    Name: "\uB300\uC9C0\uC758 \uC815\uB839"
+    Attack: 71
+    MagicalAttack: 15
+    Health: 615
+    Defence: 15
+    MagicDefence: 15
+    Shield: 0
+    Accuracy: 100
+    Evasion: 8
+    Critical: 5
+    AttackSpeed: 101
+  - Id: 22
+    Name: "\uBB3C\uC758 \uC815\uB839"
+    Attack: 80
+    MagicalAttack: 20
+    Health: 830
+    Defence: 35
+    MagicDefence: 60
+    Shield: 0
+    Accuracy: 100
+    Evasion: 6
+    Critical: 5
+    AttackSpeed: 98
+  - Id: 23
+    Name: "\uBD88\uC758 \uC815\uB839"
+    Attack: 0
+    MagicalAttack: 64
+    Health: 570
+    Defence: 13
+    MagicDefence: 13
+    Shield: 0
+    Accuracy: 100
+    Evasion: 6
+    Critical: 5
+    AttackSpeed: 86
+  - Id: 24
+    Name: "\uC815\uC2E0\uC758 \uC815\uB839"
+    Attack: 55
+    MagicalAttack: 12
+    Health: 700
+    Defence: 23
+    MagicDefence: 18
+    Shield: 0
+    Accuracy: 100
+    Evasion: 6
+    Critical: 5
+    AttackSpeed: 88
+  - Id: 25
+    Name: "\uB3C4\uB07C \uC804\uC0AC"
+    Attack: 138
+    MagicalAttack: 0
+    Health: 700
+    Defence: 15
+    MagicDefence: 18
+    Shield: 0
+    Accuracy: 100
+    Evasion: 8
+    Critical: 5
+    AttackSpeed: 104
+  - Id: 26
+    Name: "\uC2EC\uD310\uAD00"
+    Attack: 65
+    MagicalAttack: 0
+    Health: 780
+    Defence: 28
+    MagicDefence: 49
+    Shield: 0
+    Accuracy: 100
+    Evasion: 6
+    Critical: 5
+    AttackSpeed: 94
+  - Id: 27
+    Name: "\uC880\uB3C4\uB451"
+    Attack: 65
+    MagicalAttack: 0
+    Health: 500
+    Defence: 5
+    MagicDefence: 5
+    Shield: 0
+    Accuracy: 100
+    Evasion: 10
+    Critical: 5
+    AttackSpeed: 101
+  - Id: 28
+    Name: "\uD638\uD06C\uC544\uC774"
+    Attack: 0
+    MagicalAttack: 80
+    Health: 520
+    Defence: 10
+    MagicDefence: 10
+    Shield: 0
+    Accuracy: 100
+    Evasion: 6
+    Critical: 5
+    AttackSpeed: 85
+  - Id: 29
+    Name: "\uD640\uB9AC \uB098\uC774\uD2B8"
+    Attack: 999
+    MagicalAttack: 0
+    Health: 580
+    Defence: 16
+    MagicDefence: 10
+    Shield: 0
+    Accuracy: 100
+    Evasion: 6
+    Critical: 5
+    AttackSpeed: 87
+  TwoStarExcelDatas:
+  - Id: 1
+    Name: "\uACE0\uCCA0\uAC70\uC778"
+    Attack: 163
+    MagicalAttack: 0
+    Health: 1181
+    Defence: 39
+    MagicDefence: 45
+    Shield: 0
+    Accuracy: 100
+    Evasion: 14
+    Critical: 5
+    AttackSpeed: 104
+  - Id: 2
+    Name: "\uB55C\uC7A5\uC774"
+    Attack: 129
+    MagicalAttack: 0
+    Health: 1325
+    Defence: 55
+    MagicDefence: 79
+    Shield: 0
+    Accuracy: 100
+    Evasion: 11
+    Critical: 5
+    AttackSpeed: 93
+  - Id: 3
+    Name: "\uC790\uC774\uB85C\uCF65\uD130"
+    Attack: 104
+    MagicalAttack: 0
+    Health: 1110
+    Defence: 36
+    MagicDefence: 18
+    Shield: 0
+    Accuracy: 100
+    Evasion: 11
+    Critical: 5
+    AttackSpeed: 80
+  - Id: 4
+    Name: "\uACE0\uC2A4\uD2B8 \uB4DC\uB798\uACE4"
+    Attack: 109
+    MagicalAttack: 27
+    Health: 1110
+    Defence: 34
+    MagicDefence: 34
+    Shield: 0
+    Accuracy: 100
+    Evasion: 14
+    Critical: 5
+    AttackSpeed: 180
+  - Id: 5
+    Name: "\uADF8\uB9B0 \uB4DC\uB798\uACE4"
+    Attack: 102
+    MagicalAttack: 0
+    Health: 1289
+    Defence: 38
+    MagicDefence: 75
+    Shield: 0
+    Accuracy: 100
+    Evasion: 11
+    Critical: 5
+    AttackSpeed: 79
+  - Id: 6
+    Name: "\uBCF4\uB77C \uB4DC\uB798\uACE4"
+    Attack: 0
+    MagicalAttack: 269
+    Health: 1199
+    Defence: 36
+    MagicDefence: 54
+    Shield: 0
+    Accuracy: 100
+    Evasion: 11
+    Critical: 5
+    AttackSpeed: 80
+  - Id: 7
+    Name: "\uC218\uC815 \uB4DC\uB798\uACE4"
+    Attack: 90
+    MagicalAttack: 0
+    Health: 1074
+    Defence: 54
+    MagicDefence: 18
+    Shield: 0
+    Accuracy: 100
+    Evasion: 11
+    Critical: 5
+    AttackSpeed: 79
+  - Id: 8
+    Name: "\uB460"
+    Attack: 107
+    MagicalAttack: 0
+    Health: 1593
+    Defence: 39
+    MagicDefence: 50
+    Shield: 0
+    Accuracy: 100
+    Evasion: 11
+    Critical: 5
+    AttackSpeed: 91
+  - Id: 9
+    Name: "\uC545\uB9C8\uC758 \uAE30\uC0AC"
+    Attack: 0
+    MagicalAttack: 200
+    Health: 1146
+    Defence: 23
+    MagicDefence: 48
+    Shield: 0
+    Accuracy: 100
+    Evasion: 11
+    Critical: 5
+    AttackSpeed: 83
+  - Id: 10
+    Name: "\uD751\uB9C8\uBC95\uC0AC"
+    Attack: 175
+    MagicalAttack: 0
+    Health: 1530
+    Defence: 111
+    MagicDefence: 59
+    Shield: 0
+    Accuracy: 100
+    Evasion: 11
+    Critical: 5
+    AttackSpeed: 84
+  - Id: 11
+    Name: "\uC2A4\uD0EC\uD53C\uB4DC"
+    Attack: 109
+    MagicalAttack: 0
+    Health: 1128
+    Defence: 30
+    MagicDefence: 30
+    Shield: 0
+    Accuracy: 100
+    Evasion: 11
+    Critical: 5
+    AttackSpeed: 90
+  - Id: 12
+    Name: "\uCF04\uD0C0\uC6B0\uB85C\uC2A4"
+    Attack: 141
+    MagicalAttack: 0
+    Health: 1074
+    Defence: 13
+    MagicDefence: 11
+    Shield: 0
+    Accuracy: 100
+    Evasion: 22
+    Critical: 5
+    AttackSpeed: 111
+  - Id: 13
+    Name: "\uD4E8\uB9AC\uC628"
+    Attack: 0
+    MagicalAttack: 161
+    Health: 1674
+    Defence: 36
+    MagicDefence: 45
+    Shield: 0
+    Accuracy: 100
+    Evasion: 11
+    Critical: 5
+    AttackSpeed: 86
+  - Id: 14
+    Name: "\uB9AC\uCE58"
+    Attack: 168
+    MagicalAttack: 0
+    Health: 1245
+    Defence: 16
+    MagicDefence: 20
+    Shield: 0
+    Accuracy: 100
+    Evasion: 24
+    Critical: 5
+    AttackSpeed: 118
+  - Id: 15
+    Name: "\uD574\uACE8 \uBCD1\uC0AC"
+    Attack: 0
+    MagicalAttack: 233
+    Health: 1414
+    Defence: 32
+    MagicDefence: 50
+    Shield: 0
+    Accuracy: 100
+    Evasion: 11
+    Critical: 5
+    AttackSpeed: 89
+  - Id: 16
+    Name: "\uD761\uD608\uADC0"
+    Attack: 114
+    MagicalAttack: 0
+    Health: 1181
+    Defence: 48
+    MagicDefence: 36
+    Shield: 0
+    Accuracy: 100
+    Evasion: 11
+    Critical: 5
+    AttackSpeed: 85
+  - Id: 17
+    Name: "\uC5D8\uD504 \uAC80\uC0AC"
+    Attack: 122
+    MagicalAttack: 0
+    Health: 922
+    Defence: 18
+    MagicDefence: 18
+    Shield: 0
+    Accuracy: 100
+    Evasion: 14
+    Critical: 5
+    AttackSpeed: 100
+  - Id: 18
+    Name: "\uC6B0\uB4DC \uC5D8\uD504"
+    Attack: 200
+    MagicalAttack: 20
+    Health: 1200
+    Defence: 20
+    MagicDefence: 20
+    Shield: 0
+    Accuracy: 100
+    Evasion: 26
+    Critical: 5
+    AttackSpeed: 111
+  - Id: 19
+    Name: "\uC6CC\uB85D"
+    Attack: 0
+    MagicalAttack: 161
+    Health: 1074
+    Defence: 21
+    MagicDefence: 30
+    Shield: 0
+    Accuracy: 100
+    Evasion: 11
+    Critical: 5
+    AttackSpeed: 82
+  - Id: 20
+    Name: "\uC77C\uC77C\uC774"
+    Attack: 131
+    MagicalAttack: 0
+    Health: 1360
+    Defence: 81
+    MagicDefence: 47
+    Shield: 0
+    Accuracy: 100
+    Evasion: 11
+    Critical: 5
+    AttackSpeed: 88
+  - Id: 21
+    Name: "\uB300\uC9C0\uC758 \uC815\uB839"
+    Attack: 127
+    MagicalAttack: 27
+    Health: 1101
+    Defence: 27
+    MagicDefence: 27
+    Shield: 0
+    Accuracy: 100
+    Evasion: 14
+    Critical: 5
+    AttackSpeed: 101
+  - Id: 22
+    Name: "\uBB3C\uC758 \uC815\uB839"
+    Attack: 143
+    MagicalAttack: 36
+    Health: 1486
+    Defence: 63
+    MagicDefence: 107
+    Shield: 0
+    Accuracy: 100
+    Evasion: 11
+    Critical: 5
+    AttackSpeed: 98
+  - Id: 23
+    Name: "\uBD88\uC758 \uC815\uB839"
+    Attack: 0
+    MagicalAttack: 115
+    Health: 1020
+    Defence: 23
+    MagicDefence: 23
+    Shield: 0
+    Accuracy: 100
+    Evasion: 11
+    Critical: 5
+    AttackSpeed: 86
+  - Id: 24
+    Name: "\uC815\uC2E0\uC758 \uC815\uB839"
+    Attack: 98
+    MagicalAttack: 21
+    Health: 1253
+    Defence: 43
+    MagicDefence: 32
+    Shield: 0
+    Accuracy: 100
+    Evasion: 11
+    Critical: 5
+    AttackSpeed: 88
+  - Id: 25
+    Name: "\uB3C4\uB07C \uC804\uC0AC"
+    Attack: 247
+    MagicalAttack: 0
+    Health: 1253
+    Defence: 27
+    MagicDefence: 32
+    Shield: 0
+    Accuracy: 100
+    Evasion: 14
+    Critical: 5
+    AttackSpeed: 104
+  - Id: 26
+    Name: "\uC2EC\uD310\uAD00"
+    Attack: 116
+    MagicalAttack: 0
+    Health: 1396
+    Defence: 50
+    MagicDefence: 88
+    Shield: 0
+    Accuracy: 100
+    Evasion: 11
+    Critical: 5
+    AttackSpeed: 94
+  - Id: 27
+    Name: "\uC880\uB3C4\uB451"
+    Attack: 116
+    MagicalAttack: 0
+    Health: 895
+    Defence: 9
+    MagicDefence: 9
+    Shield: 0
+    Accuracy: 100
+    Evasion: 20
+    Critical: 5
+    AttackSpeed: 101
+  - Id: 28
+    Name: "\uD638\uD06C\uC544\uC774"
+    Attack: 0
+    MagicalAttack: 143
+    Health: 931
+    Defence: 18
+    MagicDefence: 18
+    Shield: 0
+    Accuracy: 100
+    Evasion: 11
+    Critical: 5
+    AttackSpeed: 85
+  - Id: 29
+    Name: "\uD640\uB9AC \uB098\uC774\uD2B8"
+    Attack: 118
+    MagicalAttack: 0
+    Health: 1038
+    Defence: 29
+    MagicDefence: 18
+    Shield: 0
+    Accuracy: 100
+    Evasion: 11
+    Critical: 5
+    AttackSpeed: 87
+  ThreeStarExcelDatas:
+  - Id: 1
+    Name: "\uACE0\uCCA0\uAC70\uC778"
+    Attack: 272
+    MagicalAttack: 0
+    Health: 1973
+    Defence: 66
+    MagicDefence: 75
+    Shield: 0
+    Accuracy: 100
+    Evasion: 24
+    Critical: 5
+    AttackSpeed: 104
+  - Id: 2
+    Name: "\uB55C\uC7A5\uC774"
+    Attack: 215
+    MagicalAttack: 0
+    Health: 2213
+    Defence: 93
+    MagicDefence: 132
+    Shield: 0
+    Accuracy: 100
+    Evasion: 18
+    Critical: 5
+    AttackSpeed: 93
+  - Id: 3
+    Name: "\uC790\uC774\uB85C\uCF65\uD130"
+    Attack: 173
+    MagicalAttack: 0
+    Health: 1854
+    Defence: 60
+    MagicDefence: 30
+    Shield: 0
+    Accuracy: 100
+    Evasion: 18
+    Critical: 5
+    AttackSpeed: 80
+  - Id: 4
+    Name: "\uACE0\uC2A4\uD2B8 \uB4DC\uB798\uACE4"
+    Attack: 182
+    MagicalAttack: 45
+    Health: 1854
+    Defence: 57
+    MagicDefence: 57
+    Shield: 0
+    Accuracy: 100
+    Evasion: 24
+    Critical: 5
+    AttackSpeed: 180
+  - Id: 5
+    Name: "\uADF8\uB9B0 \uB4DC\uB798\uACE4"
+    Attack: 170
+    MagicalAttack: 0
+    Health: 2153
+    Defence: 63
+    MagicDefence: 126
+    Shield: 0
+    Accuracy: 100
+    Evasion: 18
+    Critical: 5
+    AttackSpeed: 79
+  - Id: 6
+    Name: "\uBCF4\uB77C \uB4DC\uB798\uACE4"
+    Attack: 0
+    MagicalAttack: 449
+    Health: 2003
+    Defence: 60
+    MagicDefence: 90
+    Shield: 0
+    Accuracy: 100
+    Evasion: 18
+    Critical: 5
+    AttackSpeed: 80
+  - Id: 7
+    Name: "\uC218\uC815 \uB4DC\uB798\uACE4"
+    Attack: 150
+    MagicalAttack: 0
+    Health: 1794
+    Defence: 90
+    MagicDefence: 30
+    Shield: 0
+    Accuracy: 100
+    Evasion: 18
+    Critical: 5
+    AttackSpeed: 79
+  - Id: 8
+    Name: "\uB460"
+    Attack: 179
+    MagicalAttack: 0
+    Health: 2661
+    Defence: 66
+    MagicDefence: 84
+    Shield: 0
+    Accuracy: 100
+    Evasion: 18
+    Critical: 5
+    AttackSpeed: 91
+  - Id: 9
+    Name: "\uC545\uB9C8\uC758 \uAE30\uC0AC"
+    Attack: 0
+    MagicalAttack: 335
+    Health: 1914
+    Defence: 39
+    MagicDefence: 81
+    Shield: 0
+    Accuracy: 100
+    Evasion: 18
+    Critical: 5
+    AttackSpeed: 83
+  - Id: 10
+    Name: "\uD751\uB9C8\uBC95\uC0AC"
+    Attack: 293
+    MagicalAttack: 0
+    Health: 2556
+    Defence: 185
+    MagicDefence: 99
+    Shield: 0
+    Accuracy: 100
+    Evasion: 18
+    Critical: 5
+    AttackSpeed: 84
+  - Id: 11
+    Name: "\uC2A4\uD0EC\uD53C\uB4DC"
+    Attack: 182
+    MagicalAttack: 0
+    Health: 1884
+    Defence: 51
+    MagicDefence: 51
+    Shield: 0
+    Accuracy: 100
+    Evasion: 18
+    Critical: 5
+    AttackSpeed: 90
+  - Id: 12
+    Name: "\uCF04\uD0C0\uC6B0\uB85C\uC2A4"
+    Attack: 236
+    MagicalAttack: 0
+    Health: 1794
+    Defence: 21
+    MagicDefence: 18
+    Shield: 0
+    Accuracy: 100
+    Evasion: 33
+    Critical: 5
+    AttackSpeed: 111
+  - Id: 13
+    Name: "\uD4E8\uB9AC\uC628"
+    Attack: 0
+    MagicalAttack: 269
+    Health: 2796
+    Defence: 60
+    MagicDefence: 75
+    Shield: 0
+    Accuracy: 100
+    Evasion: 18
+    Critical: 5
+    AttackSpeed: 86
+  - Id: 14
+    Name: "\uB9AC\uCE58"
+    Attack: 281
+    MagicalAttack: 0
+    Health: 2078
+    Defence: 27
+    MagicDefence: 33
+    Shield: 0
+    Accuracy: 100
+    Evasion: 36
+    Critical: 5
+    AttackSpeed: 118
+  - Id: 15
+    Name: "\uD574\uACE8 \uBCD1\uC0AC"
+    Attack: 0
+    MagicalAttack: 389
+    Health: 2362
+    Defence: 54
+    MagicDefence: 84
+    Shield: 0
+    Accuracy: 100
+    Evasion: 18
+    Critical: 5
+    AttackSpeed: 89
+  - Id: 16
+    Name: "\uD761\uD608\uADC0"
+    Attack: 191
+    MagicalAttack: 0
+    Health: 1973
+    Defence: 81
+    MagicDefence: 60
+    Shield: 0
+    Accuracy: 100
+    Evasion: 18
+    Critical: 5
+    AttackSpeed: 85
+  - Id: 17
+    Name: "\uC5D8\uD504 \uAC80\uC0AC"
+    Attack: 203
+    MagicalAttack: 0
+    Health: 1540
+    Defence: 30
+    MagicDefence: 30
+    Shield: 0
+    Accuracy: 100
+    Evasion: 24
+    Critical: 5
+    AttackSpeed: 100
+  - Id: 18
+    Name: "\uC6B0\uB4DC \uC5D8\uD504"
+    Attack: 335
+    MagicalAttack: 33
+    Health: 1991
+    Defence: 33
+    MagicDefence: 33
+    Shield: 0
+    Accuracy: 100
+    Evasion: 39
+    Critical: 5
+    AttackSpeed: 111
+  - Id: 19
+    Name: "\uC6CC\uB85D"
+    Attack: 0
+    MagicalAttack: 269
+    Health: 1794
+    Defence: 36
+    MagicDefence: 51
+    Shield: 0
+    Accuracy: 100
+    Evasion: 18
+    Critical: 5
+    AttackSpeed: 82
+  - Id: 20
+    Name: "\uC77C\uC77C\uC774"
+    Attack: 218
+    MagicalAttack: 0
+    Health: 2272
+    Defence: 135
+    MagicDefence: 78
+    Shield: 0
+    Accuracy: 100
+    Evasion: 18
+    Critical: 5
+    AttackSpeed: 88
+  - Id: 21
+    Name: "\uB300\uC9C0\uC758 \uC815\uB839"
+    Attack: 212
+    MagicalAttack: 45
+    Health: 1839
+    Defence: 45
+    MagicDefence: 45
+    Shield: 0
+    Accuracy: 100
+    Evasion: 24
+    Critical: 5
+    AttackSpeed: 101
+  - Id: 22
+    Name: "\uBB3C\uC758 \uC815\uB839"
+    Attack: 239
+    MagicalAttack: 60
+    Health: 2482
+    Defence: 105
+    MagicDefence: 179
+    Shield: 0
+    Accuracy: 100
+    Evasion: 18
+    Critical: 5
+    AttackSpeed: 98
+  - Id: 23
+    Name: "\uBD88\uC758 \uC815\uB839"
+    Attack: 0
+    MagicalAttack: 191
+    Health: 1704
+    Defence: 39
+    MagicDefence: 39
+    Shield: 0
+    Accuracy: 100
+    Evasion: 18
+    Critical: 5
+    AttackSpeed: 86
+  - Id: 24
+    Name: "\uC815\uC2E0\uC758 \uC815\uB839"
+    Attack: 164
+    MagicalAttack: 36
+    Health: 2093
+    Defence: 69
+    MagicDefence: 54
+    Shield: 0
+    Accuracy: 100
+    Evasion: 18
+    Critical: 5
+    AttackSpeed: 88
+  - Id: 25
+    Name: "\uB3C4\uB07C \uC804\uC0AC"
+    Attack: 413
+    MagicalAttack: 0
+    Health: 2093
+    Defence: 45
+    MagicDefence: 54
+    Shield: 0
+    Accuracy: 100
+    Evasion: 24
+    Critical: 5
+    AttackSpeed: 104
+  - Id: 26
+    Name: "\uC2EC\uD310\uAD00"
+    Attack: 194
+    MagicalAttack: 0
+    Health: 2333
+    Defence: 84
+    MagicDefence: 147
+    Shield: 0
+    Accuracy: 100
+    Evasion: 18
+    Critical: 5
+    AttackSpeed: 94
+  - Id: 27
+    Name: "\uC880\uB3C4\uB451"
+    Attack: 194
+    MagicalAttack: 0
+    Health: 1495
+    Defence: 15
+    MagicDefence: 15
+    Shield: 0
+    Accuracy: 100
+    Evasion: 30
+    Critical: 5
+    AttackSpeed: 101
+  - Id: 28
+    Name: "\uD638\uD06C\uC544\uC774"
+    Attack: 0
+    MagicalAttack: 239
+    Health: 1555
+    Defence: 30
+    MagicDefence: 30
+    Shield: 0
+    Accuracy: 100
+    Evasion: 18
+    Critical: 5
+    AttackSpeed: 85
+  - Id: 29
+    Name: "\uD640\uB9AC \uB098\uC774\uD2B8"
+    Attack: 197
+    MagicalAttack: 0
+    Health: 1734
+    Defence: 48
+    MagicDefence: 30
+    Shield: 0
+    Accuracy: 100
+    Evasion: 18
+    Critical: 5
+    AttackSpeed: 87

@@ -1,0 +1,169 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 271907748a031ff4580f46cd768e9c3f, type: 3}
+  m_Name: GoodsDataSheet
+  m_EditorClassIdentifier: 
+  GoodsExcelDatas:
+  - Id: 1
+    Name: "F \uB8EC"
+    PurchaseCurrency: 1
+    PurchasePrice: 10
+    RewardCurrency: 8
+    RewardAmount: 1
+    ImagePath: 
+  - Id: 2
+    Name: "D \uB8EC"
+    PurchaseCurrency: 1
+    PurchasePrice: 20
+    RewardCurrency: 8
+    RewardAmount: 1
+    ImagePath: 
+  - Id: 3
+    Name: "C \uB8EC"
+    PurchaseCurrency: 1
+    PurchasePrice: 30
+    RewardCurrency: 8
+    RewardAmount: 1
+    ImagePath: 
+  - Id: 4
+    Name: "B \uB8EC"
+    PurchaseCurrency: 1
+    PurchasePrice: 40
+    RewardCurrency: 8
+    RewardAmount: 1
+    ImagePath: 
+  - Id: 5
+    Name: "A \uB8EC"
+    PurchaseCurrency: 1
+    PurchasePrice: 50
+    RewardCurrency: 8
+    RewardAmount: 1
+    ImagePath: 
+  - Id: 6
+    Name: "S \uB8EC"
+    PurchaseCurrency: 1
+    PurchasePrice: 60
+    RewardCurrency: 8
+    RewardAmount: 1
+    ImagePath: 
+  - Id: 7
+    Name: "SS \uB8EC"
+    PurchaseCurrency: 1
+    PurchasePrice: 70
+    RewardCurrency: 8
+    RewardAmount: 1
+    ImagePath: 
+  - Id: 8
+    Name: "SSS \uB8EC"
+    PurchaseCurrency: 1
+    PurchasePrice: 80
+    RewardCurrency: 8
+    RewardAmount: 1
+    ImagePath: 
+  - Id: 9
+    Name: "\uB79C\uB364 \uD3EC\uC158"
+    PurchaseCurrency: 2
+    PurchasePrice: 100
+    RewardCurrency: 6
+    RewardAmount: 1
+    ImagePath: Images/Goods/RandomPotion
+  - Id: 10
+    Name: "\uB8EC \uBF51\uAE30 1\uD68C (F~B)"
+    PurchaseCurrency: 2
+    PurchasePrice: 100
+    RewardCurrency: 7
+    RewardAmount: 1
+    ImagePath: Images/Goods/1NormalRune
+  - Id: 11
+    Name: "\uB8EC \uBF51\uAE30 10\uD68C (F~B)"
+    PurchaseCurrency: 2
+    PurchasePrice: 990
+    RewardCurrency: 7
+    RewardAmount: 10
+    ImagePath: Images/Goods/10NormalRune
+  - Id: 12
+    Name: "\uB8EC \uBF51\uAE30 1\uD68C (A~SSS)"
+    PurchaseCurrency: 2
+    PurchasePrice: 1000
+    RewardCurrency: 7
+    RewardAmount: 1
+    ImagePath: Images/Goods/1UniqueRune
+  - Id: 13
+    Name: "\uB8EC \uBF51\uAE30 10\uD68C (A~SSS)"
+    PurchaseCurrency: 2
+    PurchasePrice: 9900
+    RewardCurrency: 7
+    RewardAmount: 10
+    ImagePath: Images/Goods/10UniqueRune
+  - Id: 25
+    Name: "\uACE8\uB4DC \uC8FC\uBA38\uB2C8"
+    PurchaseCurrency: 2
+    PurchasePrice: 10
+    RewardCurrency: 4
+    RewardAmount: 100
+    ImagePath: Images/Goods/Gold1
+  - Id: 26
+    Name: "\uACE8\uB4DC \uBC14\uAD6C\uB2C8"
+    PurchaseCurrency: 2
+    PurchasePrice: 50
+    RewardCurrency: 4
+    RewardAmount: 500
+    ImagePath: Images/Goods/Gold2
+  - Id: 27
+    Name: "\uACE8\uB4DC \uC218\uB808"
+    PurchaseCurrency: 2
+    PurchasePrice: 100
+    RewardCurrency: 4
+    RewardAmount: 1000
+    ImagePath: Images/Goods/Gold3
+  - Id: 28
+    Name: "\uBCF4\uC11D 10"
+    PurchaseCurrency: 0
+    PurchasePrice: 0
+    RewardCurrency: 0
+    RewardAmount: 0
+    ImagePath: 
+  - Id: 29
+    Name: "\uBCF4\uC11D 50"
+    PurchaseCurrency: 0
+    PurchasePrice: 0
+    RewardCurrency: 0
+    RewardAmount: 0
+    ImagePath: 
+  - Id: 30
+    Name: "\uBCF4\uC11D 100"
+    PurchaseCurrency: 0
+    PurchasePrice: 0
+    RewardCurrency: 0
+    RewardAmount: 0
+    ImagePath: 
+  - Id: 31
+    Name: "\uD558\uD2B8 "
+    PurchaseCurrency: 2
+    PurchasePrice: 10
+    RewardCurrency: 5
+    RewardAmount: 1
+    ImagePath: Images/Goods/Heart1
+  - Id: 32
+    Name: "\uD558\uD2B8 \uC8FC\uBA38\uB2C8"
+    PurchaseCurrency: 2
+    PurchasePrice: 50
+    RewardCurrency: 5
+    RewardAmount: 5
+    ImagePath: Images/Goods/Heart2
+  - Id: 33
+    Name: "\uD558\uD2B8 \uBC14\uAD6C\uB2C8"
+    PurchaseCurrency: 2
+    PurchasePrice: 100
+    RewardCurrency: 5
+    RewardAmount: 10
+    ImagePath: Images/Goods/Heart3

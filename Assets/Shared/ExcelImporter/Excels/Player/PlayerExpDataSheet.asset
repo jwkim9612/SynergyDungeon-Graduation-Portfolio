@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e3e445cca57b6e4b84681daa2b40eec, type: 3}
+  m_Name: PlayerExpDataSheet
+  m_EditorClassIdentifier: 
+  PlayerExpExcelDatas:
+  - Level: 1
+    SatisfyExp: 10
+    CumulativeExp: 10
+  - Level: 2
+    SatisfyExp: 20
+    CumulativeExp: 30
+  - Level: 3
+    SatisfyExp: 30
+    CumulativeExp: 60
+  - Level: 4
+    SatisfyExp: 40
+    CumulativeExp: 100
+  - Level: 5
+    SatisfyExp: 50
+    CumulativeExp: 150
+  - Level: 6
+    SatisfyExp: 60
+    CumulativeExp: 210
+  - Level: 7
+    SatisfyExp: -1
+    CumulativeExp: 0

@@ -1,0 +1,676 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 786577294c2efa340881baffe50135e4, type: 3}
+  m_Name: ChapterInfoDataSheet
+  m_EditorClassIdentifier: 
+  Chapter1InfoExcelDatas:
+  - ChapterId: 1
+    WaveId: 1
+    StageId: 1
+    GoldAmount: 3
+    ExpAmount: 1
+    EnemyIds: 1
+    FrontIds: 0
+    BackIds: 
+    ClearGoldReward: 1
+    ClearExpReward: 1
+  - ChapterId: 1
+    WaveId: 2
+    StageId: 1
+    GoldAmount: 3
+    ExpAmount: 1
+    EnemyIds: 1,1
+    FrontIds: 0,1
+    BackIds: 
+    ClearGoldReward: 2
+    ClearExpReward: 1
+  - ChapterId: 1
+    WaveId: 3
+    StageId: 1
+    GoldAmount: 3
+    ExpAmount: 1
+    EnemyIds: 1,1,1
+    FrontIds: 0,1,2
+    BackIds: 
+    ClearGoldReward: 3
+    ClearExpReward: 1
+  - ChapterId: 1
+    WaveId: 4
+    StageId: 2
+    GoldAmount: 3
+    ExpAmount: 1
+    EnemyIds: 1,1,1,1
+    FrontIds: 0,1,2,3
+    BackIds: 
+    ClearGoldReward: 4
+    ClearExpReward: 1
+  - ChapterId: 1
+    WaveId: 5
+    StageId: 2
+    GoldAmount: 3
+    ExpAmount: 1
+    EnemyIds: 1,1,1,1,1
+    FrontIds: 0,1,2,3,4
+    BackIds: 
+    ClearGoldReward: 5
+    ClearExpReward: 1
+  - ChapterId: 1
+    WaveId: 6
+    StageId: 2
+    GoldAmount: 3
+    ExpAmount: 1
+    EnemyIds: 1,1,1,1,1,1
+    FrontIds: 0,1,2,3,4,5
+    BackIds: 
+    ClearGoldReward: 6
+    ClearExpReward: 1
+  - ChapterId: 1
+    WaveId: 7
+    StageId: 2
+    GoldAmount: 3
+    ExpAmount: 1
+    EnemyIds: 1,1,1,1,1
+    FrontIds: 1,2,3
+    BackIds: 2,3
+    ClearGoldReward: 7
+    ClearExpReward: 1
+  - ChapterId: 1
+    WaveId: 8
+    StageId: 2
+    GoldAmount: 3
+    ExpAmount: 1
+    EnemyIds: 1,1,1,1,1,1
+    FrontIds: 0,1,2
+    BackIds: 0,1,2
+    ClearGoldReward: 8
+    ClearExpReward: 1
+  - ChapterId: 1
+    WaveId: 9
+    StageId: 3
+    GoldAmount: 4
+    ExpAmount: 1
+    EnemyIds: 1,1,1,1,1,1
+    FrontIds: 2,3
+    BackIds: 0,1,5,6
+    ClearGoldReward: 9
+    ClearExpReward: 1
+  - ChapterId: 1
+    WaveId: 10
+    StageId: 3
+    GoldAmount: 4
+    ExpAmount: 1
+    EnemyIds: 1,1,1,1,1,1
+    FrontIds: 0,1,2
+    BackIds: 0,1,2
+    ClearGoldReward: 10
+    ClearExpReward: 1
+  - ChapterId: 1
+    WaveId: 11
+    StageId: 3
+    GoldAmount: 4
+    ExpAmount: 1
+    EnemyIds: 1,1,1,1,1,1,1
+    FrontIds: 
+    BackIds: 0,1,2,3,4,5,6
+    ClearGoldReward: 11
+    ClearExpReward: 1
+  - ChapterId: 1
+    WaveId: 12
+    StageId: 3
+    GoldAmount: 4
+    ExpAmount: 1
+    EnemyIds: 1,1,1,1,1,1
+    FrontIds: 0,1,2,3,4,5
+    BackIds: 
+    ClearGoldReward: 12
+    ClearExpReward: 1
+  - ChapterId: 1
+    WaveId: 13
+    StageId: 3
+    GoldAmount: 4
+    ExpAmount: 1
+    EnemyIds: 1,1,1,1,1,1,1
+    FrontIds: 0,1,2,3,4
+    BackIds: 1,4
+    ClearGoldReward: 13
+    ClearExpReward: 1
+  - ChapterId: 1
+    WaveId: 14
+    StageId: 4
+    GoldAmount: 4
+    ExpAmount: 1
+    EnemyIds: 1,1,1,1,1,1,1
+    FrontIds: 1,2,3,4
+    BackIds: 2,3,4
+    ClearGoldReward: 14
+    ClearExpReward: 1
+  - ChapterId: 1
+    WaveId: 15
+    StageId: 4
+    GoldAmount: 4
+    ExpAmount: 1
+    EnemyIds: 1,1,1,1,1,1
+    FrontIds: 2,3
+    BackIds: 0,1,5,6
+    ClearGoldReward: 15
+    ClearExpReward: 1
+  - ChapterId: 1
+    WaveId: 16
+    StageId: 4
+    GoldAmount: 4
+    ExpAmount: 1
+    EnemyIds: 1,1,1,1,1,1
+    FrontIds: 0,1,2,3,4,5
+    BackIds: 
+    ClearGoldReward: 16
+    ClearExpReward: 1
+  - ChapterId: 1
+    WaveId: 17
+    StageId: 4
+    GoldAmount: 4
+    ExpAmount: 1
+    EnemyIds: 3,3,3,3,3,3,3
+    FrontIds: 
+    BackIds: 0,1,2,3,4,5,6
+    ClearGoldReward: 17
+    ClearExpReward: 1
+  - ChapterId: 1
+    WaveId: 18
+    StageId: 4
+    GoldAmount: 4
+    ExpAmount: 1
+    EnemyIds: 3,3,3,3,4,4
+    FrontIds: 1,2,3,4
+    BackIds: 2,4
+    ClearGoldReward: 18
+    ClearExpReward: 1
+  - ChapterId: 1
+    WaveId: 19
+    StageId: 5
+    GoldAmount: 5
+    ExpAmount: 1
+    EnemyIds: 1,1,1,1,4,4,4
+    FrontIds: 1,2,3,4
+    BackIds: 2,3,4
+    ClearGoldReward: 19
+    ClearExpReward: 1
+  - ChapterId: 1
+    WaveId: 20
+    StageId: 5
+    GoldAmount: 5
+    ExpAmount: 1
+    EnemyIds: 1,1,1,4,4,4,4
+    FrontIds: 0,1,2
+    BackIds: 0,1,2,3
+    ClearGoldReward: 20
+    ClearExpReward: 1
+  - ChapterId: 1
+    WaveId: 21
+    StageId: 5
+    GoldAmount: 5
+    ExpAmount: 1
+    EnemyIds: 1,1,4,4,4,4,4
+    FrontIds: 0,5
+    BackIds: 1,2,3,4,5
+    ClearGoldReward: 21
+    ClearExpReward: 1
+  - ChapterId: 1
+    WaveId: 22
+    StageId: 5
+    GoldAmount: 5
+    ExpAmount: 1
+    EnemyIds: 2,2,2,4,4,4,4
+    FrontIds: 0,1,2
+    BackIds: 3,4,5,6
+    ClearGoldReward: 22
+    ClearExpReward: 1
+  - ChapterId: 1
+    WaveId: 23
+    StageId: 5
+    GoldAmount: 5
+    ExpAmount: 1
+    EnemyIds: 3,3,3,4,4,4,4
+    FrontIds: 3,4,5
+    BackIds: 0,1,2,3
+    ClearGoldReward: 23
+    ClearExpReward: 1
+  - ChapterId: 1
+    WaveId: 24
+    StageId: 5
+    GoldAmount: 5
+    ExpAmount: 1
+    EnemyIds: 1,2,3,4,5
+    FrontIds: 0,1,2,3,4
+    BackIds: 
+    ClearGoldReward: 24
+    ClearExpReward: 1
+  - ChapterId: 1
+    WaveId: 25
+    StageId: 5
+    GoldAmount: 5
+    ExpAmount: 1
+    EnemyIds: 1,1,1,2,2,2,3,3,5
+    FrontIds: 0,1,2,3,4,5
+    BackIds: 0,6,3
+    ClearGoldReward: 25
+    ClearExpReward: 1
+  - ChapterId: 1
+    WaveId: 26
+    StageId: 5
+    GoldAmount: 5
+    ExpAmount: 1
+    EnemyIds: 2,2,2,2,3,3,3,3,3
+    FrontIds: 0,1,2,3
+    BackIds: 0,1,2,3,4
+    ClearGoldReward: 26
+    ClearExpReward: 1
+  - ChapterId: 1
+    WaveId: 27
+    StageId: 5
+    GoldAmount: 5
+    ExpAmount: 1
+    EnemyIds: 5,5,5,5,5
+    FrontIds: 2,3
+    BackIds: 2,3,4
+    ClearGoldReward: 27
+    ClearExpReward: 1
+  - ChapterId: 1
+    WaveId: 28
+    StageId: 5
+    GoldAmount: 5
+    ExpAmount: 1
+    EnemyIds: 3,3,5,5,5,5,5
+    FrontIds: 0,5
+    BackIds: 1,2,3,4,5
+    ClearGoldReward: 28
+    ClearExpReward: 1
+  - ChapterId: 1
+    WaveId: 29
+    StageId: 5
+    GoldAmount: 5
+    ExpAmount: 1
+    EnemyIds: 1,1,1,1,1,1,1,1,1,1,1,1,1
+    FrontIds: 0,1,2,3,4,5
+    BackIds: 0,1,2,3,4,5,6
+    ClearGoldReward: 29
+    ClearExpReward: 1
+  - ChapterId: 1
+    WaveId: 30
+    StageId: 5
+    GoldAmount: 5
+    ExpAmount: 1
+    EnemyIds: 3,3,3,3,3,3,4,4,4,4
+    FrontIds: 0,1,2,3,4,5
+    BackIds: 0,1,5,6
+    ClearGoldReward: 30
+    ClearExpReward: 1
+  - ChapterId: 1
+    WaveId: 31
+    StageId: 5
+    GoldAmount: 5
+    ExpAmount: 1
+    EnemyIds: 2,2,2,2,2,2,2,2,2,2,2,2,2
+    FrontIds: 0,1,2,3,4,5
+    BackIds: 0,1,2,3,4,5,6
+    ClearGoldReward: 31
+    ClearExpReward: 1
+  - ChapterId: 1
+    WaveId: 32
+    StageId: 5
+    GoldAmount: 5
+    ExpAmount: 1
+    EnemyIds: 5,5,5,5,5,5,5,5
+    FrontIds: 0,5
+    BackIds: 0,1,2,4,5,6
+    ClearGoldReward: 32
+    ClearExpReward: 1
+  - ChapterId: 1
+    WaveId: 33
+    StageId: 5
+    GoldAmount: 5
+    ExpAmount: 1
+    EnemyIds: 1,1,2,3,4,5,6
+    FrontIds: 0,5,1,2,3,4
+    BackIds: 3
+    ClearGoldReward: 33
+    ClearExpReward: 1
+  Chapter2InfoExcelDatas:
+  - ChapterId: 2
+    WaveId: 1
+    StageId: 1
+    GoldAmount: 3
+    ExpAmount: 1
+    EnemyIds: 1
+    FrontIds: 0
+    BackIds: 
+    ClearGoldReward: 1
+    ClearExpReward: 1
+  - ChapterId: 2
+    WaveId: 2
+    StageId: 1
+    GoldAmount: 3
+    ExpAmount: 1
+    EnemyIds: 1,1
+    FrontIds: 0,1
+    BackIds: 
+    ClearGoldReward: 2
+    ClearExpReward: 1
+  - ChapterId: 2
+    WaveId: 3
+    StageId: 1
+    GoldAmount: 3
+    ExpAmount: 1
+    EnemyIds: 1,1,1
+    FrontIds: 0,1,2
+    BackIds: 
+    ClearGoldReward: 3
+    ClearExpReward: 1
+  - ChapterId: 2
+    WaveId: 4
+    StageId: 2
+    GoldAmount: 3
+    ExpAmount: 1
+    EnemyIds: 1,1,1,1
+    FrontIds: 0,1,2,3
+    BackIds: 
+    ClearGoldReward: 4
+    ClearExpReward: 1
+  - ChapterId: 2
+    WaveId: 5
+    StageId: 2
+    GoldAmount: 3
+    ExpAmount: 1
+    EnemyIds: 1,1,1,1,1
+    FrontIds: 0,1,2,3,4
+    BackIds: 
+    ClearGoldReward: 5
+    ClearExpReward: 1
+  - ChapterId: 2
+    WaveId: 6
+    StageId: 2
+    GoldAmount: 3
+    ExpAmount: 1
+    EnemyIds: 1,1,1,1,1,1
+    FrontIds: 0,1,2,3,4,5
+    BackIds: 
+    ClearGoldReward: 6
+    ClearExpReward: 1
+  - ChapterId: 2
+    WaveId: 7
+    StageId: 2
+    GoldAmount: 3
+    ExpAmount: 1
+    EnemyIds: 1,1,1,2,2
+    FrontIds: 1,2,3
+    BackIds: 2,3
+    ClearGoldReward: 7
+    ClearExpReward: 1
+  - ChapterId: 2
+    WaveId: 8
+    StageId: 2
+    GoldAmount: 3
+    ExpAmount: 1
+    EnemyIds: 1,1,1,2,2,2
+    FrontIds: 0,1,2
+    BackIds: 0,1,2
+    ClearGoldReward: 8
+    ClearExpReward: 1
+  - ChapterId: 2
+    WaveId: 9
+    StageId: 3
+    GoldAmount: 4
+    ExpAmount: 1
+    EnemyIds: 1,1,2,2,2,2
+    FrontIds: 2,3
+    BackIds: 0,1,5,6
+    ClearGoldReward: 9
+    ClearExpReward: 1
+  - ChapterId: 2
+    WaveId: 10
+    StageId: 3
+    GoldAmount: 4
+    ExpAmount: 1
+    EnemyIds: 2,2,2,2,2,2
+    FrontIds: 0,1,2
+    BackIds: 0,1,2
+    ClearGoldReward: 10
+    ClearExpReward: 1
+  - ChapterId: 2
+    WaveId: 11
+    StageId: 3
+    GoldAmount: 4
+    ExpAmount: 1
+    EnemyIds: 2,2,2,2,2,2,2
+    FrontIds: 
+    BackIds: 0,1,2,3,4,5,6
+    ClearGoldReward: 11
+    ClearExpReward: 1
+  - ChapterId: 2
+    WaveId: 12
+    StageId: 3
+    GoldAmount: 4
+    ExpAmount: 1
+    EnemyIds: 3,3,3,3,3,3
+    FrontIds: 0,1,2,3,4,5
+    BackIds: 
+    ClearGoldReward: 12
+    ClearExpReward: 1
+  - ChapterId: 2
+    WaveId: 13
+    StageId: 3
+    GoldAmount: 4
+    ExpAmount: 1
+    EnemyIds: 2,2,2,2,2,3,3
+    FrontIds: 0,1,2,3,4
+    BackIds: 1,4
+    ClearGoldReward: 13
+    ClearExpReward: 1
+  - ChapterId: 2
+    WaveId: 14
+    StageId: 4
+    GoldAmount: 4
+    ExpAmount: 1
+    EnemyIds: 2,2,2,2,3,3,3
+    FrontIds: 1,2,3,4
+    BackIds: 2,3,4
+    ClearGoldReward: 14
+    ClearExpReward: 1
+  - ChapterId: 2
+    WaveId: 15
+    StageId: 4
+    GoldAmount: 4
+    ExpAmount: 1
+    EnemyIds: 2,2,3,3,3,3
+    FrontIds: 2,3
+    BackIds: 0,1,5,6
+    ClearGoldReward: 15
+    ClearExpReward: 1
+  - ChapterId: 2
+    WaveId: 16
+    StageId: 4
+    GoldAmount: 4
+    ExpAmount: 1
+    EnemyIds: 3,3,3,3,3,3
+    FrontIds: 0,1,2,3,4,5
+    BackIds: 
+    ClearGoldReward: 16
+    ClearExpReward: 1
+  - ChapterId: 2
+    WaveId: 17
+    StageId: 4
+    GoldAmount: 4
+    ExpAmount: 1
+    EnemyIds: 3,3,3,3,3,3,3
+    FrontIds: 
+    BackIds: 0,1,2,3,4,5,6
+    ClearGoldReward: 17
+    ClearExpReward: 1
+  - ChapterId: 2
+    WaveId: 18
+    StageId: 4
+    GoldAmount: 4
+    ExpAmount: 1
+    EnemyIds: 3,3,3,3,4,4
+    FrontIds: 1,2,3,4
+    BackIds: 2,4
+    ClearGoldReward: 18
+    ClearExpReward: 1
+  - ChapterId: 2
+    WaveId: 19
+    StageId: 5
+    GoldAmount: 5
+    ExpAmount: 1
+    EnemyIds: 1,1,1,1,4,4,4
+    FrontIds: 1,2,3,4
+    BackIds: 2,3,4
+    ClearGoldReward: 19
+    ClearExpReward: 1
+  - ChapterId: 2
+    WaveId: 20
+    StageId: 5
+    GoldAmount: 5
+    ExpAmount: 1
+    EnemyIds: 1,1,1,4,4,4,4
+    FrontIds: 0,1,2
+    BackIds: 0,1,2,3
+    ClearGoldReward: 20
+    ClearExpReward: 1
+  - ChapterId: 2
+    WaveId: 21
+    StageId: 5
+    GoldAmount: 5
+    ExpAmount: 1
+    EnemyIds: 1,1,4,4,4,4,4
+    FrontIds: 0,5
+    BackIds: 1,2,3,4,5
+    ClearGoldReward: 21
+    ClearExpReward: 1
+  - ChapterId: 2
+    WaveId: 22
+    StageId: 5
+    GoldAmount: 5
+    ExpAmount: 1
+    EnemyIds: 2,2,2,4,4,4,4
+    FrontIds: 0,1,2
+    BackIds: 3,4,5,6
+    ClearGoldReward: 22
+    ClearExpReward: 1
+  - ChapterId: 2
+    WaveId: 23
+    StageId: 5
+    GoldAmount: 5
+    ExpAmount: 1
+    EnemyIds: 3,3,3,4,4,4,4
+    FrontIds: 3,4,5
+    BackIds: 0,1,2,3
+    ClearGoldReward: 23
+    ClearExpReward: 1
+  - ChapterId: 2
+    WaveId: 24
+    StageId: 5
+    GoldAmount: 5
+    ExpAmount: 1
+    EnemyIds: 1,2,3,4,5
+    FrontIds: 0,1,2,3,4
+    BackIds: 
+    ClearGoldReward: 24
+    ClearExpReward: 1
+  - ChapterId: 2
+    WaveId: 25
+    StageId: 5
+    GoldAmount: 5
+    ExpAmount: 1
+    EnemyIds: 1,1,1,2,2,2,3,3,5
+    FrontIds: 0,1,2,3,4,5
+    BackIds: 0,6,3
+    ClearGoldReward: 25
+    ClearExpReward: 1
+  - ChapterId: 2
+    WaveId: 26
+    StageId: 5
+    GoldAmount: 5
+    ExpAmount: 1
+    EnemyIds: 2,2,2,2,3,3,3,3,3
+    FrontIds: 0,1,2,3
+    BackIds: 0,1,2,3,4
+    ClearGoldReward: 26
+    ClearExpReward: 1
+  - ChapterId: 2
+    WaveId: 27
+    StageId: 5
+    GoldAmount: 5
+    ExpAmount: 1
+    EnemyIds: 5,5,5,5,5
+    FrontIds: 2,3
+    BackIds: 2,3,4
+    ClearGoldReward: 27
+    ClearExpReward: 1
+  - ChapterId: 2
+    WaveId: 28
+    StageId: 5
+    GoldAmount: 5
+    ExpAmount: 1
+    EnemyIds: 3,3,5,5,5,5,5
+    FrontIds: 0,5
+    BackIds: 1,2,3,4,5
+    ClearGoldReward: 28
+    ClearExpReward: 1
+  - ChapterId: 2
+    WaveId: 29
+    StageId: 5
+    GoldAmount: 5
+    ExpAmount: 1
+    EnemyIds: 1,1,1,1,1,1,1,1,1,1,1,1,1
+    FrontIds: 0,1,2,3,4,5
+    BackIds: 0,1,2,3,4,5,6
+    ClearGoldReward: 29
+    ClearExpReward: 1
+  - ChapterId: 2
+    WaveId: 30
+    StageId: 5
+    GoldAmount: 5
+    ExpAmount: 1
+    EnemyIds: 3,3,3,3,3,3,4,4,4,4
+    FrontIds: 0,1,2,3,4,5
+    BackIds: 0,1,5,6
+    ClearGoldReward: 30
+    ClearExpReward: 1
+  - ChapterId: 2
+    WaveId: 31
+    StageId: 5
+    GoldAmount: 5
+    ExpAmount: 1
+    EnemyIds: 2,2,2,2,2,2,2,2,2,2,2,2,2
+    FrontIds: 0,1,2,3,4,5
+    BackIds: 0,1,2,3,4,5,6
+    ClearGoldReward: 31
+    ClearExpReward: 1
+  - ChapterId: 2
+    WaveId: 32
+    StageId: 5
+    GoldAmount: 5
+    ExpAmount: 1
+    EnemyIds: 5,5,5,5,5,5,5,5
+    FrontIds: 0,5
+    BackIds: 0,1,2,4,5,6
+    ClearGoldReward: 32
+    ClearExpReward: 1
+  - ChapterId: 2
+    WaveId: 33
+    StageId: 5
+    GoldAmount: 5
+    ExpAmount: 1
+    EnemyIds: 1,1,2,3,4,5,6
+    FrontIds: 0,5,1,2,3,4
+    BackIds: 3
+    ClearGoldReward: 33
+    ClearExpReward: 1

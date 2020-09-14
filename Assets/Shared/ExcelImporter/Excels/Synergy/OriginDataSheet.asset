@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab1c79240de6a6d4798a00c8a73d407d, type: 3}
+  m_Name: OriginDataSheet
+  m_EditorClassIdentifier: 
+  OriginExcelDatas:
+  - Name: 1
+    Description: "\uAD81\uC218/\uC544\uAD70\uC758 \uD06C\uB9AC\uD2F0\uCEEC \uD655\uB960\uC774
+      [\uAD81\uC2187/\uAD81\uC21815/\uC544\uAD7015] (1/3/5) \uB9CC\uD07C \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    ImagePath: Images/Origin/Archer_On
+  - Name: 3
+    Description: "\uB3C4\uC801\uC758 \uACF5\uACA9\uB825\uC774 [40%/85%] (2/4) \uB9CC\uD07C
+      \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    ImagePath: Images/Origin/Thief_On
+  - Name: 5
+    Description: "\uC544\uAD70\uC758 \uB9C8\uBC95\uACF5\uACA9\uB825\uC774 [20/45/80]
+      (2/4/6) \uB9CC\uD07C \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    ImagePath: Images/Origin/Wizard_On
+  - Name: 2
+    Description: "\uC544\uAD70\uC758 \uB9C8\uBC95\uC800\uD56D\uB825\uC774 [10/20]
+      (2/4) \uB9CC\uD07C \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    ImagePath: Images/Origin/Paladin_On
+  - Name: 4
+    Description: "\uC544\uAD70\uC758 \uBC29\uC5B4\uB825\uC774 [10/20] (2/4) \uB9CC\uD07C
+      \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    ImagePath: Images/Origin/Warrior_On

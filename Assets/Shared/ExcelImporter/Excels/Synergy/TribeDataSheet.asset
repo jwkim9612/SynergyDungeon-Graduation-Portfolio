@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e39a5d6319c1c149b80be7cdbb3890b, type: 3}
+  m_Name: TribeDataSheet
+  m_EditorClassIdentifier: 
+  TribeExcelDatas:
+  - Name: 7
+    Description: "\uC544\uAD70\uC758 \uCD5C\uB300\uCCB4\uB825\uC774 [250/450] (2/3)
+      \uB9CC\uD07C \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    ImagePath: Images/Tribe/MACHINE
+  - Name: 3
+    Description: "\uBAA8\uB4E0 \uC2A4\uD0EF\uC774  [\uC790\uC2E0 25%/\uC544\uAD70
+      25%] (1/4) \uB9CC\uD07C \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    ImagePath: Images/Tribe/DRAGON
+  - Name: 2
+    Description: "\uC801\uAD70\uC758 [\uBC29\uC5B4\uB825, \uB9C8\uBC95\uC800\uD56D\uB825]\uC744
+      [6,6/16,16/30,30] (1,2,3) \uB9CC\uD07C \uAC10\uC18C\uC2DC\uD0B5\uB2C8\uB2E4."
+    ImagePath: Images/Tribe/DEVIL
+  - Name: 1
+    Description: "\uC57C\uC218\uC758 \uACF5\uACA9\uC18D\uB3C4\uAC00 [30,70] (1,3)
+      \uB9CC\uD07C \uBE68\uB77C\uC9D1\uB2C8\uB2E4."
+    ImagePath: Images/Tribe/BEAST
+  - Name: 8
+    Description: "\uC801\uAD70\uC758 [\uACF5\uACA9\uB825, \uB9C8\uBC95\uACF5\uACA9\uB825]\uC744
+      [6,6/16,16/30,30] (1,2,3) \uB9CC\uD07C \uAC10\uC18C\uC2DC\uD0B5\uB2C8\uB2E4."
+    ImagePath: Images/Tribe/UNDEAD
+  - Name: 5
+    Description: "\uC5D8\uD504\uC758 \uD68C\uD53C\uC728\uC774 [20,40] (2,4) \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    ImagePath: Images/Tribe/ELF
+  - Name: 4
+    Description: "\uC544\uAD70\uC758 \uC801\uC911\uB960\uC774 [20, 40] (2/4) \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    ImagePath: Images/Tribe/ELEMENTAL
+  - Name: 6
+    Description: "\uC544\uAD70\uC758 [\uACF5\uACA9\uB825, \uB9C8\uBC95\uACF5\uACA9\uB825]
+      \uC774 [5,10,25] (2,3,5) \uB9CC\uD07C \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    ImagePath: Images/Tribe/HUMAN
